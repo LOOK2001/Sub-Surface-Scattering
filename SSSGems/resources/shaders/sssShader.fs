@@ -15,7 +15,7 @@ uniform vec3 viewPos;
 
 float DepthCalculation(vec4 fragPosLightSpace)
 {
-    // 1. I need to do perspective divide for vertex position
+    // I need to do perspective divide for vertex position
     vec3 projCoords = fragPosLightSpace.xyz / fragPosLightSpace.w;
     // transform to [0,1] range because it is [0,1] range in depth map
     projCoords = projCoords * 0.5 + 0.5;
