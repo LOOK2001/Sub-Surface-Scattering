@@ -5,6 +5,6 @@ There is a executable file in exe.file
 
 ## Example
 
-![](example01.png)
-![](example02.png)
-![](example03.png)
+![](examples/example01.png)
+![](examples/example02.png)
+![](examples/example03.png)
